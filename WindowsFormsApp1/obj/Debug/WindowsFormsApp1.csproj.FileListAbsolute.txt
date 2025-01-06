@@ -1,0 +1,10 @@
+D:\Toyshop\GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\Toyshop\GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.login.resources
+D:\Toyshop\GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Toyshop\GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Toyshop\GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Toyshop\GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Toyshop\GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Toyshop\GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Toyshop\GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Toyshop\GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
