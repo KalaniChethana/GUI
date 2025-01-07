@@ -7,6 +7,92 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/360_F_483060388_7Qi4Qu7VcSE4oODrSQUQGglmDVG3yCs6.jpg"/>
+        </Grid.Background>
+        <TextBlock Grid.Column="0" Grid.ColumnSpan="3" 
+                   Text="Toy Shop" 
+                   FontSize="60" 
+                   HorizontalAlignment="Center" 
+                   Width="389"
+                   VerticalAlignment="Center" 
+                   TextAlignment="Center"
+                   Foreground="#FF29339C"
+                   FontFamily="Showcard Gothic" />
+        <TextBlock Grid.Row="1" Grid.Column="1"  Grid.ColumnSpan="2" 
+                   Text="Username" 
+                   FontSize="30" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   Foreground="#FF2D3698" 
+                   FontFamily="Segoe UI Black"/>
+        <TextBox Grid.Row="2" Grid.Column="1"  Grid.ColumnSpan="2" 
+                 HorizontalAlignment="Center" VerticalAlignment="Top"
+                 Width="286" Height="28"/>
+        <TextBlock Grid.Row="3" 
+                    Grid.Column="1"  
+                   Grid.ColumnSpan="2"
+                   Text="Password" 
+                   FontSize="30" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   Foreground="#FF2D3698" 
+                   FontFamily="Segoe UI Black" Width="148" Margin="0"/>
+
+        <PasswordBox
+                 Grid.Row="4" 
+                 Grid.Column="1" 
+                 Grid.ColumnSpan="2"
+                 HorizontalAlignment="Center" VerticalAlignment="Top"
+                 Width="286" Height="28"
+                  />
+
+
+        <CheckBox Grid.Row="5" 
+                  Grid.Column="1"
+                  Grid.ColumnSpan="2"
+                  Content="Show Password"
+                  FontSize="14"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Top"/>
+
+
+
+
+        <Button Grid.Row="6" 
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                 
+                Content="Login" 
+                Background="#FF7FC8E0" 
+                FontSize="24" 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI Black" 
+                Foreground="#FF2D3698"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top" />
+
+
+
+
+
+
 
     </Grid>
 </Window>

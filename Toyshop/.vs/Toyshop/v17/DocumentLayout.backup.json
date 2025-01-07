@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Toyshop\\GUI\\Toyshop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46D5501A-B459-47D3-A6E2-9DD0B4255B33}|Toyshop\\Toyshop.csproj|d:\\toyshop\\gui\\toyshop\\toyshop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46D5501A-B459-47D3-A6E2-9DD0B4255B33}|Toyshop\\Toyshop.csproj|solutionrelative:toyshop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46D5501A-B459-47D3-A6E2-9DD0B4255B33}|Toyshop\\Toyshop.csproj|d:\\toyshop\\gui\\toyshop\\toyshop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46D5501A-B459-47D3-A6E2-9DD0B4255B33}|Toyshop\\Toyshop.csproj|solutionrelative:toyshop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D5501A-B459-47D3-A6E2-9DD0B4255B33}|Toyshop\\Toyshop.csproj|d:\\toyshop\\gui\\toyshop\\toyshop\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D5501A-B459-47D3-A6E2-9DD0B4255B33}|Toyshop\\Toyshop.csproj|solutionrelative:toyshop\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +38,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Toyshop\\GUI\\Toyshop\\Toyshop\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Toyshop\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Toyshop\\GUI\\Toyshop\\Toyshop\\AssemblyInfo.cs",
+              "RelativeToolTip": "Toyshop\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T15:20:18.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Toyshop\\GUI\\Toyshop\\Toyshop\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Toyshop\\MainWindow.xaml",
+              "ToolTip": "D:\\Toyshop\\GUI\\Toyshop\\Toyshop\\MainWindow.xaml*",
+              "RelativeToolTip": "Toyshop\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-06T14:29:35.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Toyshop\\GUI\\Toyshop\\Toyshop\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Toyshop\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Toyshop\\GUI\\Toyshop\\Toyshop\\MainWindow.xaml.cs",
               "RelativeToolTip": "Toyshop\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T14:29:32.764Z",
               "EditorCaption": ""
