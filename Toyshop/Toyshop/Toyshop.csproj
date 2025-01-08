@@ -10,14 +10,10 @@
 
   <ItemGroup>
     <None Remove="360_F_483060388_7Qi4Qu7VcSE4oODrSQUQGglmDVG3yCs6.jpg" />
-    <None Remove="360_F_674182406_zN2itPLKqTaDovwlvBQO3qleqO6eJVrt.jpg" />
-    <None Remove="360_F_906684558_CxKt2b93efUg13ndU7vIGXGxFYDFQ6oM.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="360_F_483060388_7Qi4Qu7VcSE4oODrSQUQGglmDVG3yCs6.jpg" />
-    <Resource Include="360_F_674182406_zN2itPLKqTaDovwlvBQO3qleqO6eJVrt.jpg" />
-    <Resource Include="360_F_906684558_CxKt2b93efUg13ndU7vIGXGxFYDFQ6oM.jpg" />
   </ItemGroup>
 
 </Project>
