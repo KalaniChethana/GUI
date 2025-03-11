@@ -1,0 +1,107 @@
+/* Admin Header */
+/* .admin-header {
+    width: 100%;
+    background: #f1eeee; 
+    padding: 12px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* Header Container */
+  .admin-header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo */
+  .admin-logo img {
+    width: 60px; /* Adjust size */
+    height: auto;
+  }
+  
+  /* User Icon */
+  .admin-user {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .admin-user-icon {
+    font-size: 22px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .admin-user-icon:hover {
+    color: #ff6f61;
+  }
+  
+  /* Dropdown Menu */
+  .admin-dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+  }
+  
+  .admin-dropdown-menu button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .admin-dropdown-menu button:hover {
+    background: #ff6f61;
+    color: white;
+  }
+
+  /* Ensure the main content does not overlap with the fixed header */
+.admin-main {
+  margin-top: 80px; /* Adjust based on header height */
+  padding: 20px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.admin-text{
+  color: #ffffff; /* White text for visibility */
+  font-weight: bold; /* Make the text bolder */
+  font-size: 50px; /* Increase font size */
+  text-decoration: none; /* Remove underline */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Black shadow for better contrast */
+  transition: color 0.3s ease-in-out;
+}
+/* Fix header positioning */
+.admin-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #e4b7b7;
+  padding: 12px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .admin-logo img {
+      width: 100px;
+    }
+  }
+  

@@ -1,0 +1,169 @@
+/* .signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+  }
+   */
+
+
+/* Full-screen Background */
+.signup-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Background Image */
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(4px);
+}
+
+/* Glassmorphism Signup Container */
+.signup-container {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.signup-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.signup-subtitle {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+input, select {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+.signup-btn, .login-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #d9534f;
+  color: white;
+  margin-top: 10px;
+}
+
+.signup-btn:hover {
+  background: #c9302c;
+}
+
+.login-btn {
+  display: inline-block;
+  background: #d9534f;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background: #c9302c;
+}
+
+/* Success & Error Messages */
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .signup-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .signup-title {
+    font-size: 20px;
+  }
+}

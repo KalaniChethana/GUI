@@ -1,0 +1,176 @@
+/* .login-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.admin-login-section {
+  margin-top: 20px;
+}
+
+.admin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+} */
+
+
+/* Full-screen Background */
+.login-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Background Image */
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(4px);
+}
+
+/* Glassmorphism Login Container */
+.login-container {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Buttons */
+.login-btn, .signup-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background: #d9534f; /* Red Button */
+  color: white;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background: #c9302c;
+}
+
+.signup-btn {
+  display: inline-block;
+  background: #d9534f;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.signup-btn:hover {
+  background: #c9302c;
+}
+
+/* New User Text */
+.new-user-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .login-title {
+    font-size: 20px;
+  }
+}
+
